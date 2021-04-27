@@ -8,6 +8,25 @@ body {
     font-family: 'Rubik Mono One', sans-serif;
 }
 
+.nav-fixed {
+    padding: 10px;
+    position: fixed;
+    line-height: 80px;
+    top: 0;
+    right: 0;
+    z-index: 1001;
+}
+
+a {
+    border-radius: 50%;
+    padding: 10px 15px;
+    font-size: 22px;
+    background: #fff;
+    color: black;
+    text-decoration: none;
+    margin: 10px;
+}
+
 .block {
     height: 100vh;
     position: relative;
@@ -21,7 +40,7 @@ body {
     background-color: green;
 }
 
-.blue {
+.yellow {
     background-color: yellow;
 }
 
@@ -34,9 +53,8 @@ body {
     left: 50%;
 }
 
-[class^=".container-text-"] {
-    font-family: 'Rubik Mono One', sans-serif;
-    font-size: 80px;
+[class^="container-text-"] {
+    font-size: 38px;
 }
 
 .container-text-1, .container-text-2 {
