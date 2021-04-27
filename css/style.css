@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+}
+
+.block {
+    height: 100vh;
+    text-align: center;
+    line-height: 100vh;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: yellow;
+}
