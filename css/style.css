@@ -1,13 +1,16 @@
+/* reset */
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
+/* font family for the whole body */
 body {
     font-family: 'Rubik Mono One', sans-serif;
 }
 
+/* navbar properties to fix it to top right */
 .nav-fixed {
     padding: 10px;
     position: fixed;
@@ -17,6 +20,7 @@ body {
     z-index: 1001;
 }
 
+/* link-buttons properties */
 a {
     border-radius: 50%;
     padding: 10px 15px;
@@ -27,6 +31,7 @@ a {
     margin: 10px;
 }
 
+/* blocks dimensions and colors */
 .block {
     height: 100vh;
     position: relative;
@@ -44,6 +49,7 @@ a {
     background-color: yellow;
 }
 
+/* centered properties to center it */
 .container {
     width: 800px;
     text-align: center;
@@ -53,6 +59,7 @@ a {
     left: 50%;
 }
 
+/* font size and colors for the text */
 [class^="container-text-"] {
     font-size: 38px;
 }
