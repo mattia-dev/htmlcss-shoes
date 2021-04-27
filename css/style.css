@@ -5,16 +5,12 @@
 }
 
 body {
-
+    font-family: 'Rubik Mono One', sans-serif;
 }
 
 .block {
     height: 100vh;
-    text-align: center;
-    line-height: 100vh;
-    font-size: 32px;
-    font-weight: bold;
-    color: white;
+    position: relative;
 }
 
 .red {
@@ -28,3 +24,28 @@ body {
 .blue {
     background-color: yellow;
 }
+
+.container {
+    width: 800px;
+    text-align: center;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+[class^=".container-text-"] {
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 80px;
+}
+
+.container-text-1, .container-text-2 {
+    color: yellow;
+}
+
+.container-text-3 {
+    color: green;
+}
+
+
+
